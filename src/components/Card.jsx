@@ -2,7 +2,7 @@
 
 const Card = ({icon, name, count, todayCount, style, arrow}) => {
   return (
-      <div className={`${style} bg-LightGrayishBlueCardBG w-[200px] border-t-4 rounded-t-[6px]`}>
+      <div className={`${style} bg-LightGrayishBlueCardBG w-[200px] border-t-4 rounded-t-[4px]`}>
           <div className="">
               <img src={icon} alt="icon"/>
               <p>{name}</p>

@@ -3,5 +3,5 @@ import facebook from "./icon-facebook.svg";
 import instagram from "./icon-instagram.svg";
 import twitter from "./icon-twitter.svg";
 import youtube from "./icon-youtube.svg"
-import up from "./icon.up.svg"
+import up from "./icon-up.svg"
 export {down,facebook, instagram, twitter, youtube, up}

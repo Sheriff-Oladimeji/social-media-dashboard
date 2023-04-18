@@ -3,7 +3,7 @@ import {
     down, up, twitter, youtube, instagram, facebook } from "../assets"
 const Dashboard = () => {
   return (
-      <div className="flex flex-col md:flex-row justify-between mt-4 space-y-6">
+      <div className="flex flex-col md:flex-row justify-between mt-4 space-y-6 md:items-center">
           <Card icon={facebook} style={"border-Facebook"} name={'@nathanf'} count={'1987'} todayCount={12} arrow={up} />
       <Card icon={twitter}  style={"border-Twitter"}  name={'@nathanf'} count={1044} todayCount={99} arrow={up} />
           <Card icon={instagram} style={"border-Instagram"}  name={'@realnathanf'} count={'11k'} todayCount={1099} arrow={up} />

@@ -3,7 +3,7 @@
 const Card = ({icon, name, count, todayCount, style, arrow}) => {
   return (
       <div className={`${style} bg-LightGrayishBlueCardBG w-[200px] border-t-4 rounded-t-[4px]`}>
-          <div className="">
+          <div className="flex items-center">
               <img src={icon} alt="icon"/>
               <p>{name}</p>
           </div>

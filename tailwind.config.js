@@ -25,6 +25,9 @@ export default {
       iInstagramTwo: "hsl(329, 70%, 58%)",
       YouTube: "hsl(348, 97%, 39%)",
     },
+    fontFamily: {
+      Inter: ["Inter", "sans-serif"],
+    },
   },
   plugins: [],
 };

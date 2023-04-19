@@ -2,13 +2,13 @@
 
 const Card = ({icon, name, count, todayCount, style, arrow}) => {
   return (
-      <div className={``}>
-          <div className="flex items-center space-x-4">
+      <div className={`w-[100%] bg-LightGrayishBlueCardBG dark:bg-DarkDesaturatedBlueCardBG border-t-4 rounded-[4px] ${style}`}>
+          <div className="flex justify-center space-x-2 items-center mt-4">
               <img src={icon} alt="icon"/>
               <p>{name}</p>
           </div>
-          <div>
-              <h1>{count}</h1>
+          <div className="flex justify-center flex-col items-center">
+              <h1 className="font-bold text-5xl">{count}</h1>
               <p>FOLLOWERS</p>
           </div>
           <div>

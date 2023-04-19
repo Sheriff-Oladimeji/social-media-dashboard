@@ -7,9 +7,9 @@ const Card = ({icon, name, count, todayCount, style, arrow}) => {
               <img src={icon} alt="icon"/>
               <p>{name}</p>
           </div>
-          <div className="flex justify-center flex-col items-center">
-              <h1 className="font-bold text-5xl">{count}</h1>
-              <p>FOLLOWERS</p>
+          <div className="flex justify-center flex-col items-center my-4">
+              <h1 className="font-bold text-5xl text-VeryDarkBlueText">{count}</h1>
+              <p className="font-normal text-DesaturatedBlueText mt-1">FOLLOWERS</p>
           </div>
           <div>
               <img src={arrow} alt="" />

@@ -1,3 +1,4 @@
+import { up } from "../assets"
 
 
 const Card = ({icon, name, count, todayCount, style, arrow}) => {
@@ -11,9 +12,9 @@ const Card = ({icon, name, count, todayCount, style, arrow}) => {
               <h1 className="font-bold text-5xl text-VeryDarkBlueText">{count}</h1>
               <p className="font-normal text-DesaturatedBlueText mt-1">FOLLOWERS</p>
           </div>
-          <div>
+          <div className={`flex justify-center items-center ${arrow === up}`}>
               <img src={arrow} alt="" />
-              <p>{todayCount} Today</p>
+              <p >{todayCount} Today</p>
           </div>
     </div>
   )

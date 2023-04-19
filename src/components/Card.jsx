@@ -12,7 +12,7 @@ const Card = ({icon, name, count, todayCount, style, arrow}) => {
               <h1 className="font-bold text-5xl text-VeryDarkBlueText">{count}</h1>
               <p className="font-normal text-DesaturatedBlueText mt-1">FOLLOWERS</p>
           </div>
-          <div className={`flex justify-center items-center ${arrow === up}`}>
+          <div className={`flex justify-center items-center ${arrow === up?"text-LimeGreen":"text-BrightRed"}`}>
               <img src={arrow} alt="" />
               <p >{todayCount} Today</p>
           </div>

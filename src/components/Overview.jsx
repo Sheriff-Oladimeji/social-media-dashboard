@@ -6,7 +6,7 @@ const Overview = () => {
       <aside>
           <h1>Overview - Today</h1>
           <div>
-             <CardInfo /> 
+             <CardInfo  action={'Page Views'} icon={facebook} count="87" arrow={up} value={3}/> 
           </div>
     </aside>
   )

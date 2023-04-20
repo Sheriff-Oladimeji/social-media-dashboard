@@ -9,7 +9,11 @@ const CardInfo = ({action, icon, count, value, arrow}) => {
           </div>
           <div>
               <h3>{count}</h3>
-              <p>{arrow}{value}%</p>
+              <div>
+                  <img src={arrow} alt="" />
+                <p>{value}%</p>  
+              </div>
+              
           </div>
     </div>
   )

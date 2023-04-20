@@ -13,7 +13,7 @@ const Overview = () => {
              <CardInfo  action={'Retweets'} icon={twitter} count="117" arrow={up} value={303}/> 
              <CardInfo  action={'Likes'} icon={twitter} count="507" arrow={up} value={553}/> 
              <CardInfo  action={'Likes'} icon={youtube} count="107" arrow={down} value={19}/> 
-             <CardInfo  action={'Page Views'} icon={youtube} count="140" arrow={down} value={12}/> 
+             <CardInfo  action={'Page Views'} icon={youtube} count="1407" arrow={down} value={12}/> 
           </div>
          
     </aside>

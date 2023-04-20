@@ -1,8 +1,13 @@
-import React from 'react'
+import CardInfo from "./CardInfo"
 
 const Overview = () => {
   return (
-    <div>Overview</div>
+      <aside>
+          <h1>Overview - Today</h1>
+          <div>
+             <CardInfo/> 
+          </div>
+    </aside>
   )
 }
 

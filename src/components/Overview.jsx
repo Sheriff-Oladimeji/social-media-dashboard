@@ -8,6 +8,24 @@ const Overview = () => {
           <div>
              <CardInfo  action={'Page Views'} icon={facebook} count="87" arrow={up} value={3}/> 
           </div>
+          <div>
+             <CardInfo  action={'Page Views'} icon={facebook} count="87" arrow={up} value={3}/> 
+          </div>
+          <div>
+             <CardInfo  action={'Page Views'} icon={facebook} count="87" arrow={up} value={3}/> 
+          </div>
+          <div>
+             <CardInfo  action={'Page Views'} icon={facebook} count="87" arrow={up} value={3}/> 
+          </div>
+          <div>
+             <CardInfo  action={'Page Views'} icon={facebook} count="87" arrow={up} value={3}/> 
+          </div>
+          <div>
+             <CardInfo  action={'Page Views'} icon={facebook} count="87" arrow={up} value={3}/> 
+          </div>
+          <div>
+             <CardInfo  action={'Page Views'} icon={facebook} count="87" arrow={up} value={3}/> 
+          </div>
     </aside>
   )
 }

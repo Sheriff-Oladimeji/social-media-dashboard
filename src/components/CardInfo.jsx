@@ -1,3 +1,4 @@
+import { up } from "../assets"
 
 
 const CardInfo = ({action, icon, count, value, arrow}) => {
@@ -9,7 +10,7 @@ const CardInfo = ({action, icon, count, value, arrow}) => {
           </div>
           <div className="flex justify-between items-center mt-6">
               <h3 className="font-bold text-4xl text-VeryDarkBlueText">{count}</h3>
-              <div>
+              <div className={`flex items-center ${arrow === up?"text-LimeGreen": "text-BrightRed"} font-semibold`}>
                   <img src={arrow} alt="" />
                 <p>{value}%</p>  
               </div>

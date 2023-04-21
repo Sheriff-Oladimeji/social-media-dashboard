@@ -3,7 +3,7 @@ import {
     instagram, facebook, up, down, twitter, youtube,} from "../assets"
 const Overview = () => {
   return (
-      <aside className="font-Inter mt-6 w-[90%] md:w-[70%] mx-auto  font-Inter">
+      <aside className="mt-6 w-[90%] md:w-[70%] mx-auto  font-Inter">
           <h1 className="text-3xl  text-DarkGrayishBlueText font-bold mb-4">Overview - Today</h1>
           <div className="grid md:grid-cols-4 gap-8">
              <CardInfo  action={'Page Views'} icon={facebook} count="87" arrow={up} value={3}/> 

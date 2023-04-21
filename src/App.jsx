@@ -6,7 +6,7 @@ const App = () => {
   return (
     <section className="w-[100%] dark:bg-VeryDarkBlueBG">
    
-      <div className="w-[100%] bg-LightGrayishBlueCardBG dark:bg-VeryDarkBlueTopBG">
+      <div className="w-[100%] bg-LightGrayishBlueCardBG dark:bg-VeryDarkBlueBG">
          <Header/>
     
       </div>

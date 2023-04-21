@@ -6,7 +6,7 @@ const Card = ({icon, name, count, todayCount, style, arrow}) => {
       <div className={`w-[100%] bg-VeryPaleBlueTopBG dark:bg-DarkDesaturatedBlueCardBG border-t-4 rounded-[4px] ${style}`}>
           <div className="flex justify-center space-x-2 items-center mt-4">
               <img src={icon} alt="icon"/>
-              <p>{name}</p>
+              <p className="dark:text-DesaturatedBlueText">{name}</p>
           </div>
           <div className="flex justify-center flex-col items-center my-4">
               <h1 className="font-bold text-5xl text-VeryDarkBlueText dark:text-White">{count}</h1>

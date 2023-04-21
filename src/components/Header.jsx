@@ -19,7 +19,7 @@ const Header = () => {
 
   return (
     <header className="flex flex-col md:flex-row justify-between w-[90%] md:w-[70%] mx-auto  font-Inter">
-          <div  className="mb-2 md:mb-0 border-b border-VeryDarkBlueText  pb-6">
+          <div  className="mb-2 md:mb-0 border-b border-VeryDarkBlueText  pb-6 md:border-none">
               <h1 className="text-3xl text-VeryDarkBlueText font-bold font-Inter dark:text-White">Social Media Dashboard</h1>
         <p className="text-[16px] text-DarkGrayishBlueText font-semibold">Total Followers: 23,004</p>
           </div>

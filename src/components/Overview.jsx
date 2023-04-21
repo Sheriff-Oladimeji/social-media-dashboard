@@ -4,7 +4,7 @@ import {
 const Overview = () => {
   return (
       <aside className="font-Inter mt-6">
-          <h1 className="text-4xl  md:text-3xl text-DarkGrayishBlueText font-bold mb-4">Overview - Today</h1>
+          <h1 className="text-3xl  text-DarkGrayishBlueText font-bold mb-4">Overview - Today</h1>
           <div className="grid md:grid-cols-4 gap-8">
              <CardInfo  action={'Page Views'} icon={facebook} count="87" arrow={up} value={3}/> 
              <CardInfo  action={'Likes'} icon={facebook} count="52" arrow={down} value={2}/> 

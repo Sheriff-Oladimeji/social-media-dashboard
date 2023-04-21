@@ -1,4 +1,5 @@
-import { Library, library } from "@fortawesome/fontawesome-svg-core";
+import { useState, useEffect } from "react";
+import { library } from "@fortawesome/fontawesome-svg-core";
 import { faS } from "@fortawesome/free-solid-svg-icons";
 import { faToggleOff } from "@fortawesome/free-solid-svg-icons";
 import { faToggleOn } from "@fortawesome/free-solid-svg-icons";

@@ -4,9 +4,9 @@ import Overview from "./components/Overview"
 import Header from "./components/Header"
 const App = () => {
   return (
-    <section>
+    <section className="w-[100%] dark:bg-VeryDarkBlueBG">
    
-      <div className="w-[100%] bg-LightGrayishBlueCardBG">
+      <div className="w-[100%] bg-LightGrayishBlueCardBG dark:bg-VeryDarkBlueTopBG">
          <Header/>
     
       </div>

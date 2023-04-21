@@ -9,7 +9,7 @@ const Card = ({icon, name, count, todayCount, style, arrow}) => {
               <p>{name}</p>
           </div>
           <div className="flex justify-center flex-col items-center my-4">
-              <h1 className="font-bold text-5xl text-VeryDarkBlueText">{count}</h1>
+              <h1 className="font-bold text-5xl text-VeryDarkBlueText dark:text-White">{count}</h1>
               <p className="font-normal text-DesaturatedBlueText mt-1">FOLLOWERS</p>
           </div>
           <div className={`flex justify-center items-center ${arrow === up?"text-LimeGreen":"text-BrightRed"} space-x-2 mb-4`}>

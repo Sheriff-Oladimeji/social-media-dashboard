@@ -3,7 +3,7 @@ import { up } from "../assets"
 
 const CardInfo = ({action, icon, count, value, arrow}) => {
   return (
-      <div className="w-[100%] bg-LightGrayishBlueCardBG py-5 px-3 font-Inter rounded-[6px]">
+      <div className="w-[100%] bg-LightGrayishBlueCardBG py-5 px-3 font-Inter rounded-[6px] ">
           <div className="flex justify-between items-center">
               <p className="font-semibold text-DarkGrayishBlueText ">{action}</p>
               <img src={icon} alt="logo" />

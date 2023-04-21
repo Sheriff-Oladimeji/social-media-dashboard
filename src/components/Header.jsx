@@ -18,7 +18,7 @@ const Header = () => {
   const btnValue = darkMode?<FontAwesomeIcon icon="fa-solid fa-toggle-off" /> :<FontAwesomeIcon icon="fa-solid fa-toggle-on" /> 
 
   return (
-      <header>
+    <header className="flex flex-col md:flex-row justify-between bg-VeryPaleBlueTopBG w-[90%] md:w-[70%] mx-auto  font-Inter">
           <div>
               <h1>Social Media Dashboard</h1>
               <p>Total Followers: 23,004</p>

@@ -8,9 +8,11 @@ const App = () => {
    
       <div className="w-[100%] bg-LightGrayishBlueCardBG">
          <Header/>
-      <Dashboard />
+    
       </div>
-     
+      
+        <Dashboard />
+    
       <Overview/>
  
       </section>

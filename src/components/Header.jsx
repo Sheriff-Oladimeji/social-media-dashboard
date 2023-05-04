@@ -13,14 +13,14 @@ const Header = () => {
   
 
   return (
-    <header className="flex flex-col md:flex-row justify-between w-[90%] md:w-[80%] mx-auto items-center font-Inter py-4">
+    <header className="flex flex-col md:flex-row md:justify-between w-[90%] md:w-[80%] mx-auto md:items-center font-Inter py-4">
           <div  className="mb-2 md:mb-0 border-b border-VeryDarkBlueText  pb-6 md:border-none items-center">
-              <h1 className="text-3xl text-VeryDarkBlueText font-bold font-Inter dark:text-White">Social Media Dashboard</h1>
+              <h1 className="text-3xl text-VeryDarkBlueText font-bold font-Inter dark:text-White md:text-3xl md:w-full">Social Media Dashboard</h1>
         <p className="text-[16px] text-DarkGrayishBlueText font-semibold">Total Followers: 23,004</p>
           </div>
-          <div  className="flex justify-between md:justify-start items-center md:space-x-2 w-full">
+          <div  className="flex justify-between  md:justify-end items-center md:space-x-2 w-full">
         <p className="dark:text-DesaturatedBlueText font-semibold">Dark mode</p>
-        <button onClick={() => setDarkMode(!darkMode)} className="cursor-pointer outline-none border-none">{darkMode?<CgToggleOff size={40}/>:<CgToggleOn size={40}/>}</button>
+        <button onClick={() => setDarkMode(!darkMode)} className={"cursor-pointer outline-none border-none "}>{darkMode?<CgToggleOff size={40}/>:<CgToggleOn size={40}/>}</button>
           </div>
     </header>
   )

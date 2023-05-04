@@ -1,10 +1,5 @@
 import { useState, useEffect } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { library } from "@fortawesome/fontawesome-svg-core";
-import { faS } from "@fortawesome/free-solid-svg-icons";
-import { faToggleOff } from "@fortawesome/free-solid-svg-icons";
-import { faToggleOn } from "@fortawesome/free-solid-svg-icons";
-library.add(faS, faToggleOff, faToggleOn)
+import {CgToggleOff} from "react-icons/cg"
 const Header = () => {
      const [darkMode, setDarkMode] = useState(false);
 
@@ -15,7 +10,7 @@ const Header = () => {
       document.documentElement.classList.remove('dark');
     }
   }, [darkMode]);
-  const btnValue = darkMode?<FontAwesomeIcon icon="fa-solid fa-toggle-off"  className="text-5xl text-Toggle fill-ToggleTwo"/> :<FontAwesomeIcon icon="fa-solid fa-toggle-on"  className="text-5xl text-lightToggle" /> 
+  const btnValue = darkMode ? { CgToggleOff } :<FontAwesomeIcon icon="fa-solid fa-toggle-on"  className="text-5xl text-lightToggle" /> 
 
   return (
     <header className="flex flex-col md:flex-row justify-between w-[90%] md:w-[80%] mx-auto items-center font-Inter py-4">

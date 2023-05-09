@@ -1,12 +1,12 @@
 import { up } from "../assets"
 
 
-const Card = ({icon, name, count, todayCount, style, arrow}) => {
+const Card = ({icon, name, count, todayCount, style, arrow, link}) => {
   return (
       <div className={`w-[100%] bg-VeryPaleBlueTopBG dark:bg-DarkDesaturatedBlueCardBG border-t-4 rounded-[4px] ${style}`}>
           <div className="flex justify-center space-x-2 items-center mt-4">
               <img src={icon} alt="icon"/>
-              <p className="dark:text-DesaturatedBlueText">{name}</p>
+              <a className="dark:text-DesaturatedBlueText" href={link} target="_blank">{name}</a>
           </div>
           <div className="flex justify-center flex-col items-center my-4">
               <h1 className="font-bold text-5xl text-VeryDarkBlueText dark:text-White">{count}</h1>

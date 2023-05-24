@@ -20,7 +20,7 @@ const Header = () => {
           </div>
           <div  className="flex justify-between  md:justify-end items-center md:space-x-2 w-full">
         <p className="dark:text-DesaturatedBlueText font-semibold">Dark mode</p>
-        <button onClick={() => setDarkMode(!darkMode)} className={`cursor-pointer outline-none border-none bg-none ${darkMode?"text-Toggle":"text-lightToggle"}`}>{darkMode?<CgToggleOff size={40}/>:<CgToggleOn size={40}/>}</button>
+        <button onClick={() => setDarkMode(!darkMode)} className={`cursor-pointer outline-none border-none bg-none ${darkMode?"text-Toggle":"text-lightToggle"}`}>{darkMode?<CgToggleOff size={40} />:<CgToggleOn size={40}/>}</button>
           </div>
     </header>
   )
